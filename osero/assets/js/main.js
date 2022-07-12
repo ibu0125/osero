@@ -108,7 +108,7 @@ const onClickSquare = function (index) {
         }else {
             winnerText ='引き分けです';
         }
-        alert('ゲーム終了です。白${whiteStonesNum}、黒${blackStonesNum}で、${winnerText}')
+        alert('ゲーム終了です。白' + whiteStonesNum + '、黒' + blackStonesNum + 'で、'+ winnerText);
     }
 
     // ゲーム続行なら相手のターン
