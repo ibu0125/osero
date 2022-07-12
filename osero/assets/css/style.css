@@ -17,10 +17,42 @@ body {
     background-color: #008000;
 }
 
+@media screen and (max-width:480px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+#square-template {
+    display: none;
+}
+
+#pass {
+    padding-top: 15px;
+    display: flex;
+    height: 50px;
+    width: 80px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+body > p {
+    padding-top: 20px;
+    font-size: 4.0rem;
+    display: flex;
+    color: white;
+    margin: 10px auto;
+    justify-content: center;
+}
+
 .stage {
     display: flex;
     flex-wrap: wrap;
-    margin: 60px;
+    margin: 60px auto;
+    justify-content: center;
     width: 404px;
     height: 404px;
 }
