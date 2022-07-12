@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オセロ</title>
+    <meta name="discription" content="sample text">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/sanitize.css">
+</head>
+<body>
+    <!-- 現在の手番を表示する -->
+    <p>現在の手番は<span id="current-turn">黒</span>です</p>
+    <!-- 盤 -->
+    <div id="stage" class="stage"></div>
+    <!-- 各マスを描画するためのテンプレート -->
+    <div id="square-template" class="square">
+        <div class="stone"></div>
+    </div>
+    <button id="pass">パスする</button>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
